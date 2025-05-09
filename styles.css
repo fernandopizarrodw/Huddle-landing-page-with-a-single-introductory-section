@@ -1,0 +1,239 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  :root {
+      /* Primary */
+      --Violet: hsl(257, 40%, 49%);
+      --Soft-Magenta: hsl(300, 69%, 71%);
+
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+  body {
+      font-family: 'Karla', sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      background-color: var(--Violet);
+      color: var(--gray-500);
+  }
+
+  
+   .container {
+    min-height: 100vh; 
+    width: 100%;
+    background-image: url(images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+}
+
+
+  .logo {
+      width: 150px;
+      margin: 60px 40px;
+      align-self: flex-start;
+  }
+
+  .mockups {
+      width: 400px;
+
+  }
+
+  h2 {
+      margin-top: 80px;
+
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      width: 400px;
+      font-size: 2rem;
+      text-align: center;
+  }
+
+  p {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      width: 400px;
+      font-size: 1.2rem;
+      text-align: center;
+      width: 380px;
+  }
+
+  button {
+      width: 250px;
+      padding: 15px;
+      border-radius: 50px;
+      border: none;
+      color: var(--Violet);
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.9rem;
+      margin-bottom: 60px;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .social-icon {
+      width: 200px;
+     
+      height: 200px;
+      
+      border: 1px solid white;
+      border-radius: 50%;
+     
+      color: white;
+      
+      font-size: 15px;
+      
+      padding: 10px;
+
+  }
+
+  .social-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      height: 50px;
+
+  }
+
+  .fa-facebook-f {
+      width: 14px;
+      margin-left: 2px;
+  }
+
+  .card-two {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .attribution {
+      font-size: 18px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+
+  }
+
+  .attribution a {
+      color: hsl(228, 3%, 66%);
+      text-decoration: none;
+  }
+
+  .attribution a:hover {
+      color: hsl(228, 45%, 54%);
+      transition: 0.5s;
+  }
+
+  .card-one {
+      margin-left: 50px;
+  }
+
+  @media (min-width: 768px) {
+       
+        .attribution{
+            display: flex;
+            flex-direction: row;
+            width: 500px;
+            gap: 5px;
+        }
+        
+      .container {
+          flex-direction: row;
+        background-image: url(images/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain, auto;
+        background-position: left;
+        margin: 0px;
+        
+
+      }
+
+      .card-one {
+          display: flex;
+          flex-direction: column;
+          margin-left: 300px;
+          margin-top: 100px;
+      }
+
+      .mockups {
+          width: 600px;
+
+      }
+
+      .logo {
+          margin-left: -8px;
+          width: 200px;
+      }
+
+      .card-two {
+          
+          margin-left: 5px;
+
+      }
+
+      h2 {
+          text-align: left;
+          margin-left: 15px;
+          font-size: 2.5rem;
+          width: 500px;
+      }
+
+      .container p {
+          text-align: start;
+          width: 560px;
+          margin-left: 75px;
+      }
+
+      button {
+          align-self: flex-start;
+          margin-left: 75px;
+          width: 190px;
+          padding: 15px;
+          border-radius: 50px;
+          box-shadow: 1px 3px 4px 3px rgba(0, 0, 0, 0.3);
+          cursor: pointer;
+
+
+      }
+       .social-icons {
+        position: absolute;
+        bottom: 80px; 
+        right: 370px; 
+        display: flex;
+        gap: 20px;
+        align-items: center; 
+    }
+
+    .social-icon {
+        width: 40px;
+        height: 40px; 
+        border: 1px solid white;
+        border-radius: 50%;
+        color: white;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     
+
+  }
