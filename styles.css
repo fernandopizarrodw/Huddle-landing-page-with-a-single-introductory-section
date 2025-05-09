@@ -152,8 +152,8 @@
         .attribution{
             display: flex;
             flex-direction: row;
-            width: 500px;
-            gap: 5px;
+            width: 600px;
+            gap: 15px;
         }
         
       .container {
@@ -175,17 +175,16 @@
       }
 
       .mockups {
-          width: 600px;
+          width: 700px;
 
       }
 
       .logo {
           margin-left: -8px;
-          width: 200px;
+          width: 300px;
       }
 
       .card-two {
-          
           margin-left: 5px;
 
       }
