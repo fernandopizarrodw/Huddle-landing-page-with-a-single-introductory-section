@@ -8,7 +8,7 @@ A simple and responsive landing page built with Flexbox.
 
 ### Screenshot
 
-![Desktop Screenshot](./screenshot.jpg)
+![Desktop Screenshot](./images/screenshot-desktop.jpg)
 
 ### Links
 
